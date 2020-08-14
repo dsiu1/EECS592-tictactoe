@@ -2,10 +2,10 @@
 Project to solve a tictactoe board using the minimax algorithm. The opponent places pieces randomly while the minimax algorithm chooses the next best possible move by minimizing loss. 
 
 ## Build requirements
-This project was developed and tested on Python 2.7. The only external package needed is ```numpy```
+This project was developed and tested on Python 2.7. There are no external packages.
 
 ## Usage
 Run ```tictactoe.py``` and specify the random seed. 
 
 # Outputs
-After the program finishes, output will be in ```suoutput.txt```. Output is a 9x9 matrix. 
+Each subsequent tictactoe board will be printed in a 3x3 grid with ```x```, ```o```, and ```-``` characters.
